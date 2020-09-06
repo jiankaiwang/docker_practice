@@ -60,10 +60,10 @@ $ sysctl --system
 ```bash
 # 启用 ipvs 相关内核模块
 [Service]
-ExecStartPre=-modprobe ip_vs
-ExecStartPre=-modprobe ip_vs_rr
-ExecStartPre=-modprobe ip_vs_wrr
-ExecStartPre=-modprobe ip_vs_sh
+ExecStartPre=-/sbin/modprobe ip_vs
+ExecStartPre=-/sbin/modprobe ip_vs_rr
+ExecStartPre=-/sbin/modprobe ip_vs_wrr
+ExecStartPre=-/sbin/modprobe ip_vs_sh
 ```
 
 执行以下命令应用配置。
@@ -163,7 +163,7 @@ $ kubeadm join 192.168.199.100:6443 --token cz81zt.orsy9gm9v649e5lf \
 $ kubectl get node -o yaml | grep CIDR
 
 # 输出
-    podCIDR: 10.244.0.0/24
+    podCIDR: 10.244.0.0/16
     podCIDRs:
 ```
 

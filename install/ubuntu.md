@@ -9,7 +9,6 @@
 Docker CE 支持以下版本的 [Ubuntu](https://ubuntu.com/server) 操作系统：
 
 * Ubuntu Focal 20.04 (LTS)
-* Eoan 19.10
 * Bionic 18.04 (LTS)
 * Xenial 16.04 (LTS)
 
@@ -67,7 +66,7 @@ $ sudo add-apt-repository \
 #    stable"
 ```
 
->以上命令会添加稳定版本的 Docker CE APT 镜像源，如果需要测试或每日构建版本的 Docker CE 请将 stable 改为 test 或者 nightly。
+>以上命令会添加稳定版本的 Docker CE APT 镜像源，如果需要测试版本的 Docker CE 请将 stable 改为 test。
 
 ### 安装 Docker CE
 
