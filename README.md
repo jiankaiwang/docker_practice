@@ -7,7 +7,6 @@
 | 语言           | - |
 | :------------- | :--- |
 | [简体中文](https://github.com/yeasy/docker_practice)              | [阅读](https://vuepress.mirror.docker-practice.com/) |
-| [us-en](https://github.com/yeasy/docker_practice/tree/english)   | [阅读](https://docker_practice.gitee.io/us-en) |
 
 [Docker](https://www.docker.com) 是个划时代的开源项目，它彻底释放了计算虚拟化的威力，极大提高了应用的维护效率，降低了云计算应用开发的成本！使用 Docker，可以让应用的部署、测试和分发都变得前所未有的高效和轻松！
 
@@ -26,7 +25,7 @@ Docker 自身仍在快速发展中，生态环境也在蓬勃成长。建议初�
 ## 微信小程序
 
 <p align="center">
-<img width="200" src="https://yewm28.coding-pages.com/49682252-3ac4c500-faec-11e8-86ab-eafe0139be6b.jpg">
+<img width="200" src="https://docker_practice.gitee.io/pic/dp-wechat-miniprogram.jpg">
 </p>
 
 <p align="center"><strong>微信扫码 随时随地阅读~</strong></p>
@@ -34,7 +33,7 @@ Docker 自身仍在快速发展中，生态环境也在蓬勃成长。建议初�
 ## 技术交流
 
 <p align="center">
-<img width="200" src="https://yewm28.coding-pages.com/wechat.jpg">
+<img width="200" src="https://docker_practice.gitee.io/pic/dpsig-wechat.jpg">
 </p>
 
 <p align="center"><strong>微信扫码 加入群聊~ 或者微信添加 <code>dpsigs</code> 邀请入群</strong></p>
